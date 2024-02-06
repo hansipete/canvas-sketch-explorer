@@ -1,0 +1,17 @@
+{
+  "name": "canvas-sketch-examples-launcher",
+  "version": "1.0.0",
+  "description": "Install in launcher/ subdirectory next to the examples. Adjust path in index.js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans <hans@supernodegree.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "globby": "^11.0.0",
+    "pug": "^3.0.2"
+  }
+}

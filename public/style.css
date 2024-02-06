@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+    padding: .5em 1em;
+    background: white;
+    border-radius: 4px;
+    outline: 1px solid gray;
+    cursor:pointer;
+    transition: all .2s ease;
+}
+
+.button:hover {
+    background-color: rgb(187, 181, 225);
+}
+
+pre, i {
+    display: inline;
+    font-family: monospace;
+    color: blue;
+}
